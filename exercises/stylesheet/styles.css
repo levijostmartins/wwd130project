@@ -1,0 +1,12 @@
+body{
+    background-color: rgb(36, 35, 35);
+}
+.main_grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+#main{
+    grid-column: 3/4;
+    width: 500px;
+}
